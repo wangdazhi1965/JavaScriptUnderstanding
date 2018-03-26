@@ -1,0 +1,8 @@
+Address: {
+    street: '1001',
+    number: 3221,
+    apartment: {
+        floor: 2,
+        number: 303
+    }
+}
