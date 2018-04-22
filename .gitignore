@@ -1,3 +1,11 @@
 # ignore all .avi
 *.avi
 *.rar
+
+# ignore
+/mern
+/tensorflow
+/mernRedux
+
+# ignore vscode
+.vscode/

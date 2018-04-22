@@ -5,13 +5,14 @@ function a() {
         console.log(`b myVar is ${myVar}`);
     }
     
-    // var myVar = 2;
-    b();
     console.log(`a myVar is ${myVar}`);
+    b();
+    var myVar = 2;
+    
 }
 
 
-console.log(`global myVar before initalizing ${myVar}`);
+console.log(`global myVar before initalizing is ${myVar}`);
 var myVar = 1;
 a();
 console.log(`global myVar is ${myVar}`);
